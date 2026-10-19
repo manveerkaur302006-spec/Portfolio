@@ -41,7 +41,7 @@ export function SectionHeader({
         </motion.p>
       )}
     </div>
-  );
+);
 }
 
 export function About() {
