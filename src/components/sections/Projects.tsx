@@ -9,7 +9,7 @@ export function Projects() {
       <SectionHeader
         eyebrow="Featured Projects"
         title="Things I've shipped."
-        description="A selection of full-stack, AI, and systems work — each with a live demo and source."
+        description="A selection of full-stack, AI, and systems work — each along with a live demo and source."
       />
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, i) => (
