@@ -8,8 +8,8 @@ export function Projects() {
     <section id="projects" className="mx-auto max-w-6xl px-6 py-28">
       <SectionHeader
         eyebrow="Featured Projects"
-        title="Things I've shipped."
-        description="A selection of full-stack, AI, and systems work — with a live demo and source."
+        title="Things I have shipped."
+        description="A selection of full-stack, AI, and systems work — each with a live demo and source."
       />
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, i) => (
